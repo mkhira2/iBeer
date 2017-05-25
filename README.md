@@ -3,7 +3,7 @@
 Teaching flexbox to TIY May 2017 Cohort
 
 ## Screenshot
-![iBeer](/img/iBeer.png)
+![iBeer](./img/iBeer.png)
 
 ## Installation
 
