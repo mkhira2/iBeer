@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  background: darkslategrey;
+  padding: 10px;
+  padding-top: 0;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-bottom: 0;
+  background: darkslategrey;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.page-header {
+  background-image: url("../img/header-img.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  color: black;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+.sub-heading {
+  font-family: cursive;
+  font-size: 50px;
+  color: white;
+  margin-top: -50px;
+  text-shadow: 2px 2px black;
+}
+
+main {
+  z-index: 1;
+  padding: 0 50px;
+  background: lightyellow;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -50px;
+  box-shadow: 0px 0px 5px grey;
+  display: flex;
+}
+
+.blow-rog {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.item, aside {
+  border: 1px solid black;
+  width: 80%;
+  margin: 20px;
+  background: rgb(253,248,231);
+  padding: 10px;
+}
+
+.left-right {
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  padding-top: 15px;
+}
+
+aside {
+  height: 60%;
+}
+
+.item {
+  padding-top: 20px;
+  background: white;
+}
+
+.entry-title {
+    font-size: 30px;
+}
+
+.blog-img, .auth-pic {
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.blog-img {
+
+}
+
+.blog-row i {
+  border: 1px solid lightyellow;
+  background: lightyellow;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.meta {
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#dino {
+  background-image: url("../img/dino.jpg");
+}
+
+#xx {
+  background-image: url("../img/xx.png");
+}
+
+#yhact-img {
+  background-image: url("../img/yhact.jpg")
+}
+
+.auth-pic {
+  background-image: url("../img/author.jpeg");
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.aside-heading, .primary-txt {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.aside-heading {
+  border-bottom: 2px solid black;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.primary-txt {
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+}
